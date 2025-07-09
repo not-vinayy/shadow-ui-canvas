@@ -22,7 +22,7 @@ export function Header() {
           Compute
         </Button>
         
-        <Button variant="outline" className="flex items-center gap-2">
+        <Button variant="outline" className="flex items-center gap-2" onClick={() => console.log('Storage clicked')}>
           <Database className="w-4 h-4" />
           Storage
         </Button>
